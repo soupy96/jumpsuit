@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+	<title>Jumpsuit</title>
+  	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<!-- Local CSS -->
+	<link rel="stylesheet" href="css/style.css">
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Nanum+Gothic|Playfair+Display&display=swap" rel="stylesheet">
+	<!-- Font Awesome Scripts -->
+	<script defer src="https://use.fontawesome.com/releases/v5.11.2/js/all.js"></script>
+  	<script defer src="https://use.fontawesome.com/releases/v5.11.2/js/v4-shims.js"></script>
+</head>
+<body>
+	<img id="logo" src="images/logo.png" alt="logo">
+	<a href="#"><i class="fas fa-shopping-cart hvr-float"></i></a>
+	<nav role='navigation'>
+		<div id="menuToggle">
+			<input type="checkbox" />
+			<span></span>
+			<span></span>
+			<span></span>
+			<ul id="menu">
+			<a class="hvr-underline-from-left" href="#"><li>Home</li></a>
+			<a class="hvr-underline-from-left" href="#"><li>About</li></a>
+			<a class="hvr-underline-from-left" href="#"><li>Info</li></a>
+			<a class="hvr-underline-from-left" href="#"><li>Contact</li></a>
+			<a class="hvr-underline-from-left" href="#"><li>Show me more</li></a>
+			</ul>
+		</div>
+	</nav>
+	<a href="https://www.facebook.com/BlackridgeStrategy" target="_blank"><i class="fab fa-facebook-f hvr-backward"></i></a>
+	<a href="https://www.instagram.com/blackridgestrategy/" target="_blank"><i class="fab fa-instagram hvr-backward"></i></a>
+	<a href="https://twitter.com/brstrategy" target="_blank"><i class="fab fa-twitter hvr-backward"></i></a>
+	<div class="select-box">
+		<div class="select-box__current" tabindex="1">
+			<div class="select-box__value">
+				<input class="select-box__input" type="radio" id="0" value="1" name="Ben" checked="checked"/>
+				<p class="select-box__input-text">Orange Suit</p>
+			</div>
+			<div class="select-box__value">
+				<input class="select-box__input" type="radio" id="1" value="2" name="Ben" checked="checked"/>
+				<p class="select-box__input-text test" id="showingtext">Purple Suit</p>
+				<i class="fas fa-angle-down select-box__icon pdots odots" id="select-box__icon"></i>
+			</div>
+		</div>
+		<ul class="select-box__list bullets">
+			<!-- Using js, it populates the menu items with how many cards there are -->
+		</ul>
+	</div>
+	<article class="kontext">
+		<div class="layer one show">
+			<div id="container">
+				<div id="inner">
+					<h2><span id="firstbigP">Jump</span><span id="secondbig">Suit</span></h2>
+					<img id="lady" src="images/Hue_Saturation_1_copy.png" alt="Purple Suit">
+					<p>The hottest fashions for the summer, delivered right to your door.  Choose from the colour that best suits your and meet the coming summer in vogue.</p>
+					<h3><span id="season">Summer</span><span>2019</span></h3>
+				</div>
+			</div>
+		</div>
+		<div class="layer two">
+			<div id="container2">
+				<div id="inner2">
+					<h2><span id="firstbigO">Jump</span><span id="secondbig">Suit</span></h2>
+					<img id="lady" src="images/Hue_Saturation_2.png" alt="Orange Suit">
+					<p>The hottest fashions for the summer, delivered right to your door.  Choose from the colour that best suits your and meet the coming summer in vogue.</p>
+					<h3><span id="season">Summer</span><span>2019</span></h3>
+				</div>
+			</div>
+		</div>
+	</article>
+	<script  src="js/slidingcards.js"></script>
+</body>
+</html>
